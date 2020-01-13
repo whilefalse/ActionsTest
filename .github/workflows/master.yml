@@ -10,4 +10,4 @@ jobs:
         runs-on: ubuntu-18.04
         steps:
             - name: Master build
-              run: echo "This is the master build"
+              run: echo "This is the master build on ${GITHUB_REF}"

@@ -10,4 +10,4 @@ jobs:
         runs-on: ubuntu-18.04
         steps:
             - name: Staging build
-              run: echo "This is the staging build"
+              run: echo "This is the staging build ${GITHUB_REF}"
