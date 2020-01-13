@@ -1,0 +1,13 @@
+name: Master
+
+on:
+    push:
+        branches:
+            - master
+
+jobs:
+    build:
+        runs-on: ubuntu-18.04
+        steps:
+            - name: Master build
+              run: echo "This is the master build"

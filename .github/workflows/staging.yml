@@ -1,0 +1,13 @@
+name: Staging
+
+on:
+    push:
+        branches:
+            - staging
+
+jobs:
+    build:
+        runs-on: ubuntu-18.04
+        steps:
+            - name: Staging build
+              run: echo "This is the staging build"
